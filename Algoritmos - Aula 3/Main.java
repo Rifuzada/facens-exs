@@ -4,9 +4,15 @@ public class Main {
         double custo = 3.55;
         String nome = "Produto 1";
 
-        quantidade = 44;
+        /*
+        Números: int  float double;
+        Verdadeiro ou Falso: boolean;
+        Texto: String char;
+         */
 
-        System.out.println("A quantidade e " + quantidade + "em reais");
+        quantidade = 44;
+        //Transforma o valor de quantidade de 33 para 44;
+        System.out.println("A quantidade e " + quantidade + " em reais");
 
     }
 }
