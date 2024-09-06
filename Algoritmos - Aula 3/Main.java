@@ -12,7 +12,7 @@ public class Main {
 
         quantidade = 44;
         //Transforma o valor de quantidade de 33 para 44;
-        System.out.println("A quantidade e " + quantidade + "custa "+ custo + " em reais");
+        System.out.println("A quantidade do"+ nome + "e" + quantidade + "custa "+ custo + " em reais");
 
     }
 }
