@@ -3,5 +3,7 @@ public class Main {
         int quantidade = 33;
         double custo = 3.55;
         String nome = "Produto 1";
+
+        quantidade = 44;
     }
 }
