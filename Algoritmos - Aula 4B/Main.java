@@ -3,7 +3,7 @@ public class Main {
         int valor = 10;
         if(valor % 2 == 0){
             System.out.println(valor + " É par");
-            if(valor >= 10 && valor <=50){
+            if(valor >= 10 && valor <= 50){
                 System.out.println("Dentro");
             }else{
                 System.out.println("Fora");
