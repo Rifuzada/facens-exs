@@ -12,6 +12,7 @@ public class Main {
             int segundoValor = 0;
             int resultado = 0;
         */
+        
         System.out.println("Digite o primeiro numero da soma: ");
         primeiroValor = scn.nextInt();
         System.out.println("Digite o segundo numero da soma: ");
