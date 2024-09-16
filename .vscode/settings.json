@@ -1,8 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "exs/IdosoJovemAdolescente",
-        "Algoritmos - Aula 4B",
-        "Algoritmos - Aula 3B",
-        "exs/NegativoPositivoZero"
+        "exs/MaiorMenor"
     ]
 }
