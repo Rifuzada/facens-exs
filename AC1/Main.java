@@ -3,20 +3,20 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        double AC1, AC2, AG, AF, formula, media;
+        double ac1, ac2, ag, af, formula, media;
 
         System.out.println("-----CALCULADORA DE MEDIA ALUNOS-----");
         System.out.println("Digite a media minima: ");
         media = scn.nextDouble();
         System.out.println("Digite a nota da AC1: ");
-        AC1 = scn.nextDouble();
+        ac1 = scn.nextDouble();
         System.out.println("Digite a nota da AC2: ");
-        AC2 = scn.nextDouble();
+        ac2 = scn.nextDouble();
         System.out.println("Digite a nota da AG: ");
-        AG = scn.nextDouble();
+        ag = scn.nextDouble();
         System.out.println("Digite a nota da AF: ");
-        AF = scn.nextDouble();
-        formula = (AC1 * 0.15) + (AC2 * 0.3) + (AG * 0.10) + (AF * 0.45);
+        af = scn.nextDouble();
+        formula = (ac1 * 0.15) + (ac2 * 0.3) + (ag * 0.10) + (af * 0.45);
         System.out.println("-----CALCULADORA DE MEDIA ALUNOS-----");
 
         if (formula >= media) {
