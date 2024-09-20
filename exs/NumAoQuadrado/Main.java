@@ -4,6 +4,12 @@ public class Main {
 
         num = Math.pow(num, 2);
 
+
+
+
+
+
+        
         System.out.println(num);
     }
 }
