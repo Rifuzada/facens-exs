@@ -25,7 +25,10 @@ public class Main {
         } else if (formula < media) {
             System.out.println("\nSua nota final foi: " + formula + " e a media é " + media);
             System.out.println("\nQue pena! voce foi reprovado!!!");
+        }else if(formula < 10){
+            System.out.println("Sem mentir, essa nota não é possível.");
         }
+        scn.close();
     }
 }
 // AC1 * 15% + AC2 * 30% + AG * 10% + AF * 45%
