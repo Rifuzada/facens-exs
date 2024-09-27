@@ -9,7 +9,8 @@ public class Main {
         System.out.println("Numero negativo.");
     }
     //OU, caso não precise de condições booleanas e somente necessite verificar se um numero é igual a outro numero. Não sendo variavel, compare uma variavel com um numero ja existente, como:
-    /* n = 1
+    /* 
+    * n = 1
     *
     */
     switch(n){
