@@ -11,10 +11,10 @@ public class Main {
         if (numero == 0) {
             System.out.println("O seu numero é zero");
         }
-        if (numero < 0) {
+        else if (numero < 0) {
             System.out.println("O seu numero é negativo");
         }
-        if (numero > 0) {
+        else if (numero > 0) {
             System.out.println("O seu numero é positivo");
         }
     }
