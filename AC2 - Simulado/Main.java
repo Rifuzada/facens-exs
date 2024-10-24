@@ -63,9 +63,9 @@ public class Main {
 
             // Perguntar ao usuário se deseja realizar um novo controle de estoque
             System.out.print("\nDeseja realizar um novo controle de estoque? (S/N): ");
-            continuar = scanner.nextLine();
+            continuar = scanner.nextLine().toLowerCase();
 
-        } while (continuar.equalsIgnoreCase("S"));
+        } while (continuar == "S"); 
 
         System.out.println("Aplicativo encerrado.");
         scanner.close();
