@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "exs/Fatorial",
         "Algoritmos - Aula 7B",
-        "exs/Fatorial"
+        "AC2 - Simulado"
     ]
 }
