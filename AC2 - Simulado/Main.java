@@ -1,43 +1,39 @@
 import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        List<String> nomes = new ArrayList<>();
-        List<Integer> quantidades = new ArrayList<>();
-        List<Integer> preços = new ArrayList<>();
-        List<Integer> limitesMinimos = new ArrayList<>();
         String continuar;
 
         do {
-            int qtdProdutos;
-
             // Solicitar o número de produtos no estoque
             System.out.print("Digite o número de produtos no estoque: ");
-            qtdProdutos = scanner.nextInt();
+            int qtdProdutos = scanner.nextInt();
+            String[] nomes = new String[qtdProdutos];
+            int[] quantidades = new int[qtdProdutos];
+            int[] limitesMinimos = new int[qtdProdutos];
+            int[] preços = new int[qtdProdutos];
             scanner.nextLine(); // Consumir nova linha após o número
 
             // Entrada de dados para cada produto
             for (int i = 0; i < qtdProdutos; i++) {
                 System.out.println("\nProduto " + (i + 1) + ":");
 
-                System.out.print("Nome: ");
+                System.out.print("Nome: "); 
                 String nome = scanner.nextLine();
-                nomes.add(nome);
+                nomes[i] = nome;
 
                 System.out.print("Quantidade em estoque: ");
                 int quantidade = scanner.nextInt();
-                quantidades.add(quantidade);
+                quantidades[i] = quantidade;
 
                 System.out.print("Limite mínimo de estoque: ");
                 int limiteMinimo = scanner.nextInt();
-                limitesMinimos.add(limiteMinimo);
+                limitesMinimos[i] = limiteMinimo;
 
                 System.out.print("Preço do produto: ");
                 int preço = scanner.nextInt();
-                preços.add(preço);
+                preços[i] = preço;
                 scanner.nextLine();
             }
 
@@ -45,18 +41,18 @@ public class Main {
             int quantidadeTotal = 0;
             System.out.println("\nResumo do Estoque:");
             for (int i = 0; i < qtdProdutos; i++) {
-                quantidadeTotal += quantidades.get(i);
+                quantidadeTotal += quantidades[i];
                 String status;
-                if (quantidades.get(i) >= limitesMinimos.get(i)) {
+                if (quantidades[i] >= limitesMinimos[i]) {
                     status = "Adequada";
                 } else {
                     status = "Baixa";
                 }
                 System.out.println(
-                        "Produto: " + nomes.get(i) +
-                                ", Quantidade: " + quantidades.get(i) +
+                        "Produto: " + nomes[i] +
+                                ", Quantidade: " + quantidades[i] +
                                 ", Status: " + status +
-                                ", Preço: " + preços.get(i));
+                                ", Preço: " + preços[i]);
 
             }
             System.out.println("\nQuantidade total de produtos em estoque: " + quantidadeTotal);
