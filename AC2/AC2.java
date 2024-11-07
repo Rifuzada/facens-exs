@@ -10,11 +10,12 @@ import java.util.Scanner;
  * Turma: Semipresencial - ADS
  */
 
-public class Main {
+public class AC2 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        double ac1, ac2, ag, af, formula, media, pesoAc1, pesoAc2, pesoAg, pesoAf, pesoSomado;
-        String continuar;
+        double ac1 = 0.0, ac2 = 0.0, ag = 0.0, af = 0.0, formula = 0.0, media = 0.0, pesoAc1 = 0.0, pesoAc2 = 0.0,
+                pesoAg = 0.0, pesoAf = 0.0, pesoSomado = 0.0;
+        String continuar = "";
 
         System.out.println("Digite a media minima: ");
         media = scn.nextDouble();
@@ -48,7 +49,7 @@ public class Main {
                 } else if (formula < media) {
                     System.out.println("Sua nota final foi: " + formula + " e a media é " + media);
                     System.out.println("Que pena! voce foi reprovado!!!");
-                } else if (formula < 10) {
+                } else if (formula > 10) {
                     System.out.println("Sem mentir, essa nota não é possível.");
                 }
                 System.out.println("Deseja realizar um novo controle de notas? (S/N): ");
