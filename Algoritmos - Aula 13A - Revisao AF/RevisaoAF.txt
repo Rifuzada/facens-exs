@@ -1,0 +1,41 @@
+Algoritmo = Resolver problema que possua solucao, sequencia logica, passos finitos, pode ou nao ser otimizado  |
+----------------------------------------------------------------------------------------------------------------
+System.out.println(" ")											       |
+   |    |      |    ↓			Entrada de dados → Processamento → Saida de dados		       |
+   V    V      v  String										       |
+  OS   Saida imprimir											       |
+----------------------------------------------------------------------------------------------------------------
+Linguagem de programacao = conjunto de regras caracteres e palavras reservadas, com uma sintaxe.	       |
+           ↓												       |
+  Compiladores/interpretadores										       |
+----------------------------------------------------------------------------------------------------------------
+Tipo de dados → Variaveis → Guardadas em espaçoes de memorias.  					       |
+													       |
+int  											       	               |
+double  											               |
+char  											       	               |
+boolean 												       |
+													       |
+tipo nome = 0; nome = 2; sout(nome);									       |
+----------------------------------------------------------------------------------------------------------------
+Estruturas de decisão → if ; Switch									       |  
+if → Se	 if(condicao){}, opcionais: else if(condicao){} else{} expressões booleanas → Verdadeiro ou falso      |
+													       |
+Operadores de comparação | operadores booleanos  							       |
+==				    && = e								       |
+!=				    || = ou								       |
+>=				    ! = não								       |
+>							       						       |
+<=							                                                       |
+<													       |
+----------------------------------------------------------------------------------------------------------------
+Switch → Troca  Switch → variavel								    	       |
+int a = 1;								       				       |
+Switch(a){								                                       |
+	case 1:								                                       |
+		break								                               |
+	case 2:								                                       |
+		break								                               |
+	default:								                               |
+} 												               |
+----------------------------------------------------------------------------------------------------------------
