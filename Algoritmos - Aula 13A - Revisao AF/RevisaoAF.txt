@@ -39,3 +39,29 @@ Switch(a){								                                       |
 	default:								                               |
 } 												               |
 ----------------------------------------------------------------------------------------------------------------
+Estruturas de repeticao -> for, while									       |
+									                                       |
+for = qtd de vezes a se repetir é conhecido								       |
+													       |
+for(inicio;condicao;aumentar/diminuir){ 					 	 		       |
+													       |
+}								                                               |
+							                                		       |
+while = se repetir ate que a condicao seja atendida							       |
+													       |
+while(condicao){            						 	 	 	 	       |
+}													       |
+									                    		       |
+do{									                                       |
+}while(condicao){									    	               |
+}											    	               |
+----------------------------------------------------------------------------------------------------------------
+Estrutura de dados - Tratados/referenciado por um mesmo nome, variaveis criadas continuamente na memoria       |
+			       										       |
+Vetores e Matrizes - qtd = int			       							       |
+			       										       |
+tipo de dado[] nome = new tipo de dado[qtd];nome = { , , }; - Vetor - nome = [0,1,2,3]			       |
+			       										       |
+tipo de dado[][] nome = new tipo de dado[qtd][qtd];nome = {{ , , },{ , , }}; - Matriz			       |
+			       										       |
+Erros: index out of bounds.			     					 	 	       |
