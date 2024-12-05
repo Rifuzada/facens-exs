@@ -17,6 +17,7 @@ char  											       	               |
 boolean 												       |
 													       |
 tipo nome = 0; nome = 2; sout(nome);									       |
+Erros: MisspelledVar.											       |
 ----------------------------------------------------------------------------------------------------------------
 Estruturas de decisão → if ; Switch									       |  
 if → Se	 if(condicao){}, opcionais: else if(condicao){} else{} expressões booleanas → Verdadeiro ou falso      |
@@ -64,4 +65,4 @@ tipo de dado[] nome = new tipo de dado[qtd];nome = { , , }; - Vetor - nome = [0,
 			       										       |
 tipo de dado[][] nome = new tipo de dado[qtd][qtd];nome = {{ , , },{ , , }}; - Matriz			       |
 			       										       |
-Erros: index out of bounds.			     					 	 	       |
+Erros: ArrayIndexOutOfBoundsException.			     					 	       |
